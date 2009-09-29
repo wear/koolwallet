@@ -1,0 +1,263 @@
+body{
+	background-image:url(/images/bg_body_top.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	color:#999999;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	margin:0 auto;    
+	padding:0;
+}       
+
+.container{  
+	width:990px;
+	margin:0px auto;
+}  
+  
+ol, ul, li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}   
+
+h1, h2, h3, h4, h5, h6 {
+color:#666666;
+font-weight:bold;
+}
+       
+div {
+color:#666666;
+font-size:12px;
+} 
+
+a {
+color:#3399CC;
+text-decoration:none;
+}           
+
+
+/* --- header ----*/
+.member_area{ 
+	font-size:14px;
+	float:right; 
+	margin-right:100px;
+	margin-top:40px;
+} 
+
+.header{
+	width:100%;
+}           
+
+.logo{
+	float:left;
+	margin-left:10px;
+	margin-top:3px;
+}
+
+.login{
+	display:block;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+}    
+
+input.text {
+	background-image:url(/images/bg_text_field_medium.gif);
+	background-repeat:repeat-x;
+	border:1px solid #BBBBBB;
+	font-family:Arial,Helvetica,sans-serif;
+	height:18px;
+	padding:5px 0 0 5px;
+}            
+
+/* --- content ---  */  
+#content{
+	background-image:url(/images/bg_content_section_middle.png);
+	background-repeat:repeat-y;
+	clear:both;   
+	float:left;
+	width:100%;
+}    
+
+.top_corners{
+	background-image:url(/images/bg_content_section_top.png);
+	float:left;
+	height:53px;
+	width:990px;
+}                
+
+.content-main{
+	float:left;
+	margin:-22px 0 35px 25px;
+	width:940px;
+}
+
+/* -- home --*/ 
+.home-banner{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/images/home_banner.png) no-repeat scroll 0 0;
+	height:187px;
+   width:941px;
+}
+
+.home_banner_btn{
+	float:left;
+	height:48px;
+	margin-left:180px;
+	margin-top:140px;
+	width:339px;
+}
+
+.consumer_benefits{
+	float:left;
+	margin:18px 0 0 10px;
+	text-align:left;
+}  
+
+
+.consumer_benefits h1{
+	margin:0 0 5px 12px;
+}
+
+.consumer_benefits .earn_coins {
+	background-image:url(/images/bg_earn_coins.png);
+	float:left;
+	padding-left:28px;
+	padding-right:28px;
+	padding-top:55px;
+	width:110px;
+}         
+
+.consumer_benefits .earn_coins p {
+	font-weight:bold;
+}    
+
+.consumer_benefits .earn_coins a.more {
+	float:left;
+	margin-top:25px;
+}
+
+.publisher_benefits{
+	border-left:1px dotted #666666;
+	float:right;
+	margin-top:18px;
+	padding-bottom:60px;
+	padding-left:20px;
+	width:230px;
+}
+
+ul.kool_wallet_consumer_benefits_list{
+	float:left;
+	line-height:18px;
+	margin:10px;
+	width:490px; 
+	margin:0px;
+	padding-left:15px;
+	}
+
+ul.kool_wallet_consumer_benefits_list li { 
+	float:left; 
+	margin-left:10px;
+	width:145px;
+}
+
+/* --- footer ----*/  
+
+.content-foot{
+	background-image:url(/images/bg_bottom_section.png);
+	height:150px;
+	line-height:20px;
+	padding-left:35px;
+	padding-top:12px;
+	width:960px;
+	float:left;
+}
+
+.connect_with_us{
+	margin-right:65px;
+	padding-left:14px;
+}
+
+.receive_updates{  
+	margin-right:105px;
+}
+
+.component{ 
+	padding-top:0px;
+	float:left;
+	width:240px;
+} 
+
+#footer_menu{
+	clear:left;
+	float:left;
+	height:50px;
+	margin-left:22px;
+	width:400px;
+}
+#footer_menu li{  
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/images/bg_footer_menu_separator.png) no-repeat scroll right 4px;
+color:#CCCCCC;    
+}       
+
+#footer_menu li a{
+	color:#0D505E;
+	padding:0 17px;
+}
+
+ul.horizontal_list li {
+float:left;
+list-style-type:none;
+margin:0;
+padding:0;
+}            
+
+#copy_right_notice{
+	color:#999999;
+	float:right;
+	font-size:10px;
+	margin-right:28px;
+}
+
+/* ---- input ----*/        
+input.submit {
+border:1px solid;
+color:white;
+height:25px;
+overflow:visible;
+padding:0 8px;
+width:auto;
+}
+
+input, select {
+font-family:arial,helvetica,sans-serif;
+font-size:12px;
+}
+
+input.grey.submit {
+background-image:url(/images/bg_button_1.gif);
+border:medium none;
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+height:25px;
+line-height:25px;
+text-align:center;
+width:55px;
+}
+
+input.blue_green.submit {
+background-image:url(/images/bg_button_2.gif);
+background-repeat:repeat-x;
+border:medium none;
+font-family:Arial,Helvetica,sans-serif;
+height:26px;
+line-height:26px;
+width:68px;
+}
