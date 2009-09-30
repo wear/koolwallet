@@ -41,12 +41,3 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
-ActionMailer::Base.smtp_settings = {
-   :tls => true,
-   :address => "smtp.gmail.com",
-   :port => "587",
-   :domain => "zoomtype.info",
-   :authentication => :plain,
-   :user_name => "account@zoomtype.info",
-   :password => "tellmewhy"
- }
